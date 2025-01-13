@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background: #fcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+#fd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    background: #bfb;
+    width: 20rem;
+    height: 10rem;
+}
+#inputField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    width: 54%;
+}
+#inputField input{
+    padding: 2%;
+    outline: none;
+    margin-bottom: 2%;
+}
+#inputField button{
+    width: 100%;
+    margin: 0;
+    background-color: #fcc;
+    border: none;
+    cursor: pointer;
+    padding: 2%;
+}
+.boxContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    background: #cfc;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5%;
+    min-height: 40vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box h1{
+    align-self: flex-start;
+}
+.box div {
+ display: flex;
+ flex-direction: column;
+ width: 70%;
+ text-align: center;
+ 
+}
+.element {
+    margin: 2%;
+    text-align: center;
+    background-color: #fcc;
+    width: 100%;
+    padding: 5%;
+    border-radius: 2%;
+    cursor: pointer;
+}
